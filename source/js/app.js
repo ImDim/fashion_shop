@@ -13,6 +13,7 @@ $(document).ready(function () {
         duration: 800
 
     });
+
     document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
     document.querySelector('.next').addEventListener('click', () => mySiema.next());
 
